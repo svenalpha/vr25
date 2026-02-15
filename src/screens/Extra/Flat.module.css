@@ -1,0 +1,64 @@
+
+
+@import "@assets/styles/global.module.css"; 
+
+
+ 
+.zh3{color:  var(--testcss); background: yellow; 
+}
+.s1{height: 400px; width: 100%;  
+ /* margin-right: 50px; */   
+padding: 50px;  
+/* overflow: hidden; */
+/* display: block;   */   
+/* background: yellow;  */
+/* margin: 30px 30px 30px 30px;  */
+/* padding: 30px 30px 30px 30px;   */
+display: flex; /* block;  */
+box-sizing: border-box;               
+border: var(--borderWidth) solid red;  /* border: 10px solid red;    */
+}
+.d1{height: 100%; width: 80%; display: flex;border: var(--borderWidth) solid green; /* box-sizing: border-box; */ 
+ }     
+.d11{height: 100%; width: 30%;  background: purple; border: var(--borderWidth) solid black;    
+     /* box-sizing: border-box; */  
+     /* background-image: url('@assets/img_13rc.jpg'); background-size: contain;  */ /* either cover or contain  */  
+     /*  background-repeat: no-repeat;  background-position: center center; */
+    } 
+  .d11_img{height:100%; width: 100%;      
+           border: var(--borderWidth) solid blue;  /* box-sizing: border-box; */ 
+           object-fit: cover;    
+          }  
+.d12{height: 100%; width: 70%; background: cornsilk;  border: var(--borderWidth) solid yellow;    
+    /* box-sizing: border-box;  */  
+     /* background-image: url('@assets/img_13rc.jpg'); background-size: contain;  */ /* either cover or contain  */  
+     /*  background-repeat: no-repeat;  background-position: center center; */
+      } 
+.d2{height: 100%; width: 20%; background: cornflowerblue; border: var(--borderWidth) solid blue;box-sizing: border-box; 
+}
+
+.room_info {display: flex; justify-content: space-evenly; align-items: center; margin-bottom: 1.5rem;}
+.div_spacer {height: 20px; border: 3px solid black;}
+
+
+
+@media only screen and (max-width: 962px)  /* ie from 962px on down   */  
+{.s1{border: var(--borderWidth) solid orange;}
+@media only screen and (max-width: 768px) /* ie from 768px, on down  */  
+{.s1{border: var(--borderWidth) solid grey;
+     display: block; 
+    }
+ .d1{height: 50%;  width: 100%;}
+ .d2{height: 50%;  width: 100%;}
+ @media only screen and (max-width: 576px)  /* ie from 576 on down  */    
+  {.s1{border: var(--borderWidth) solid tomato;}                                 
+  }                                       
+}                       
+}  
+
+
+
+
+
+
+

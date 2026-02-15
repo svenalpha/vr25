@@ -1,0 +1,172 @@
+
+  
+
+@import "@assets/styles/global.module.css"; 
+
+.item1
+{/* in plus.module.css as .item */
+ background: white; /* cornflowerblue;   */
+ min-width: 360px; /* height: 300px; */ 
+ /*  border: var(--borderWidth) solid black;  */
+ border: 25px solid black;
+        margin: 10px 10px 10px 10px;  
+        box-shadow: var(--darkish_shadow);       
+        transition: var(--transition1);  
+        border-radius: var(--radius1);
+                 
+        position: relative;                     
+        display: inline-block;
+        width: 100%;
+        max-width: 47%;   /*  ie 564px of 1200px   */ 
+        /* max-width: 564px;   */  
+        position: relative;
+ text-align: left; 
+ /* min-height: 458px; */
+ height: 458px;  
+}
+
+.wrapper
+{ border: var(--borderWidth) solid green;
+  height:100%; width: 100%; 
+  position: relative;
+  display: flex; flex-flow: column; height: 100%;      
+}
+.prop_title
+{padding: 5px 5px 5px 8px;
+ position: relative;   
+ font-size: 11pt;
+ color: black;
+ 
+}
+.text{color: red; background: yellow;}
+
+
+
+.paragraph1{color:black;  height: 20px;  position:absolute;    
+            /* display: flex; flex-flow: column;     flex: 0 1 auto;  */
+           }
+.paragraph2{color:black;     top:20px; height: 20px;  position: absolute;  
+           /* display: flex; flex-flow: column;      flex: 0 1 auto;       */
+            }
+.div_box
+{height: 100%;
+  max-width:480px; /* width: 100%; */  
+ /* top: 40px;  */
+ /*  bottom: 50px;  */      
+ /* max-width: 96%;  */
+ margin: 2px 0px 5px 10px; 
+ border: var(--borderWidth) solid tomato;
+ position: relative;  /* absolute;   /* relative */   
+ display: block;
+ background: pink;  
+ 
+ /*  object-fit: cover; */         
+ /*     display: flex; flex-flow: column;   flex: 1 1 auto;    */     
+}
+
+
+.div_box_img
+{  height: 100%;    
+ width: 100%;       
+ border: var(--borderWidth) solid blue;  /* box-sizing: border-box; */ 
+ object-fit:  cover;   /* contain cover */    
+ overflow: hidden;
+ /* position: absolute; top: 0; bottom: 0; */
+ 
+}  
+
+.divx
+{width:100%; height: 50px; background: cornflowerblue;
+ border: var(--borderWidth) solid yellow;     
+ position: absolute;  bottom: 0;    
+  /* display: flex; flex-flow: column;  flex: 0 1 40px;     */
+}
+
+
+/*           video    */
+
+.youtube{
+	position: relative;  
+	overflow: hidden;
+	width: 100%;
+	background: cornflowerblue;
+	border: 5px solid rgb(34, 190, 60);  
+  margin: 0px;   
+  padding: 0px;
+  /*
+	min-height: 10em;
+	display: table-cell;
+	vertical-align: middle;
+	*/
+  }
+  
+  .youtubeInner
+  { /* padding: 10px;*/
+	/*  margin: 20px; */ 
+   /*  border: 15px solid green; */
+   /* margin: 0; */
+   /* position: absolute; top: -15px; right: 0; bottom: 0; left: 0; */ 
+  
+   padding: 0px;
+   position: absolute;
+   /*height: 315px; width:560px; */  /* 300px; */
+   height: 100%; width: 100%;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+   border: 5px solid red;
+  
+   /* margin-left: auto;
+	margin-right: auto;
+	width: auto; height:auto;
+   */
+  
+	/*
+	 top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	*/  
+	/* align-items: center;  */
+  
+  }
+  
+  .youtube::after {
+	content: "";     /* necessary line if using xxxx::after  */        
+	display: block;
+	padding-top: 56.25%; 
+  }
+  .youtube iframe {
+	border: 5px solid purple;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+/*   end video   */
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 798px) /* ie from 798px 962px on down */  
+{.item1{border: var(--borderWidth) solid blue;  
+        width:564px; max-width: 100%;
+      }
+}
+
+
+
+
+

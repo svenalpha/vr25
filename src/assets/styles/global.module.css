@@ -1,0 +1,60 @@
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Poiret+One|Raleway');
+*/  
+/*
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Poiret+One|Raleway');
+@import "https://fonts.googleapis.com/css?family=Prompt:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";   
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*/
+
+:root{
+
+ /*    */
+ font-family:  Arial, Helvetica, sans-serif;      /*  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;  */
+ line-height: 1.5;
+ font-weight: 400;
+color:blue;
+/*  */
+
+--buttonBgw: green;
+--testcss:   cornflowerblue; 
+
+--primary: #646cff;
+--bgDark: #242424;
+--buttonBg: #1a1a1a;
+--buttonBgLight: #f9f9f9;
+--defaultTextLight: rgba(255, 255, 255, 0.87);
+--defaultTextDark: #213547;
+--white: #ffffff;  
+--clr_grey_1: hsl(209,61%, 16%);
+--clr_grey_10: hsl(210,36%, 96%);
+
+--transition1: all 0.3s linear;
+--light_shadow: 0 5px 15px rgba(0,0,0,0.1);
+--dark_shadow: 0 5px 15px rgba(0,0,0,0.2);                                                 
+--darkish_shadow: rgba(0,0,0,0.16) 0px 3px 6px,  rgba(0,0,0,0.23) 0px 3px 6px; 
+--spacing: 0.1rem;
+--borderWidth: 0px;
+--border10px: 10px;
+--border3px: 3px;
+--radius1: 0.25rem;
+
+      }
+/* bootstrap media breakpoints: 576px, 768px, 992px, 1200px, 1400px "/
+/* Foundation: 640px, 1024px, any size for smaller devices  */    
+/* 768px, 769px(?), 1024px, 1216px, 1408px   */
+
+*,
+::after, 
+::before {margin: 0; padding: 0; box-sizing: border-box;
+          /* background-color: yellow; */
+        /*   font-family: Arial,Helvetica,sans-serif;  */ 
+          /* font-family: cursive;  */  
+          font-weight: 500;  
+          }
+h4 {color: red;  letter-spacing: var(--spacing);}
+

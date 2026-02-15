@@ -1,0 +1,39 @@
+
+@import "@assets/styles/global.module.css";    
+
+:root{text-align: center; width: 100%;}
+
+.navWrapper {
+    background-color: #001a00;  /* var(--bgDark);   #1a1a1a; $buttonBg; */
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 12px #1a1a1a;  /*$buttonBg;  */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 0;
+     }
+.nav li {list-style: none;
+        }
+
+.nav li a {padding: 10px 0;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.87);  /*  $defaultTextLight;   */
+           } 
+          
+.nav li a:hover {color:  var(--primary);     
+                }
+
+.nav li :global .active {color: var(--primary);   
+                        }
+              
+           
+
+
+
+                        
