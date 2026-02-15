@@ -59,7 +59,7 @@ const div_click=()=>
     return (
         <>
             <div>
-                <h4>....vr25....no.01....11:30....24/03/2025....</h4>
+                <h4>....vr25....no.02....16:12....15/02/2026....</h4>
                 <p>{legend}</p>
                 <p>{legend1}</p>
                 <a href="https://vitejs.dev" target="_blank">
