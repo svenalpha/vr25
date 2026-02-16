@@ -52,5 +52,5 @@
 #divid,
 .divxx
 {border: 10px solid blue;  height: 150px; width: 150px; display: block;
- color:red; background: yellow;
+ color:red; background: var(--the-green);
 }
