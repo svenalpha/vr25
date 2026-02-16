@@ -41,6 +41,7 @@ export default defineConfig({
       '@loaders': path.join(__dirname, './src/loaders'),
       '@db': path.join(__dirname, './src/db'),  
       '@texts': path.join(__dirname, './src/texts'), 
+      '@imagesXX': path.join(__dirname, './src/assets/imgs'), 
       '@videos': path.join(__dirname, './src/videos') 
       }
   },
