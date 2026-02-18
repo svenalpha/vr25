@@ -110,14 +110,14 @@ const doClick =  () =>
 
     return (
         <>
-{/*<h2 className={stylesd.zh3}>Room</h2>
+{/*<h2 className={stylesd.zh3}>Room</h2>               
   <button>button here</button>  */}    
 <article  className={stylesd.item1}> 
 <div  className={stylesd.wrapper}> 
  {/*  return <Room key={room['id']}  {...{room}} removeItem={removeItem} ></Room>;  */}  
 
   {/* <a href="/contact" target="_blank" rel="noopener noreferrer">*/}   
-  <p  className={stylesd.paragraph1}>...here is a paragraph...</p>
+  <p  className={stylesd.paragraph1}>...here is a paragraph abcd.. image = {image}...</p>
   {/* <button onClick={() => doClick()}> button </button>                    */}
   {/*  <button onClick={() => showItemPage("2345")}> showItemPage </button>    */}  
   
@@ -128,6 +128,7 @@ const doClick =  () =>
    {/*   <nav> <Link to={"/src/screens/Contact/Contact"}></Link></nav>   */}              
    {/* <p className={`${stylesd["text"]} ${stylesd["prop_title"]}`}>{city} {type} to let</p> */}                                                              
   <div className={stylesd.div_box}>
+    
     <img src={image} alt="Room Pic"   className={stylesd.div_box_img}  />  
   </div>
  {/*</a> */} 

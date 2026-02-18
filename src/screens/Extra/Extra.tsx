@@ -7,7 +7,7 @@ import React, { useEffect , useState} from 'react';
 import axios from "axios";
 import  Flat from "./Flat";
 import stylesa from './Extra.module.css';
-import RoomPic from '@assets/imgs/img1.jpg';  // files in public directory are served at root path
+import RoomPic from '@assets/imgs/img20.jpg';  // files in public directory are served at root path
 
 //import axios from "axios";
 
@@ -100,7 +100,7 @@ const Extra: React.FC<ExtraProps> = (props) => {
 <h2 className={stylesa.zh3}>Extra</h2>
 <button>button herea</button>
 
-{/*
+{/* */}
 <section  className={stylesa.s1}>      
   <div className={stylesa.d1}>
     <div className={stylesa.d11}> 
@@ -109,7 +109,7 @@ const Extra: React.FC<ExtraProps> = (props) => {
   </div>
   <div className={stylesa.d2}></div>
 </section>    
-*/}
+{/* */}
 
 
 <div>
