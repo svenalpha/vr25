@@ -39,6 +39,9 @@
       "@screens/*": [
         "./src/screens/*"
       ],
+      "@imgs/*": [
+        "./src/assets/imgs/*"
+      ],
       "@server/*": [
         "./server"
       ],

@@ -36,6 +36,7 @@ const Room: React.FC<RoomProps> = (props) => {
     //console.log("removeItem = ", removeItem); 
     const [readMore,setReadMore] = useState(false);  
     const [stringx,setStringx] = useState("zxcvbnm");  
+    const [imgStr,setImgStr] = useState(""); 
 
     //const [datax,setDatax] = useState(); 
     //const [users,setUsers] = useState([]);  
@@ -98,6 +99,14 @@ const Room: React.FC<RoomProps> = (props) => {
 //    useEffect(() => {
 //        helmet.setTitle("Flat")
 //    },[helmet])
+
+useEffect(() =>            //{doGetDataFlats()},  
+         {var v1:any =import.meta.env.PUBLIC_URL;
+          setImgStr(v1 + {image});
+          console.log("v1 = ",v1);
+          console.log("imgStr  = ",imgStr);
+         } 
+     ,[]);
 
 
 const doClick =  () => 
