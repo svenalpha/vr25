@@ -16,7 +16,8 @@ const flats = [
     air_conditioning: false,
     WiFi: false,
     //image: "https://media.istockphoto.com/id/989111136/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4.jpg?s=612x612&w=0&k=20&c=tuit5c6JbvaxDSaebXq8NscFGu9IDSSN3tsULQPQQu4=",
-    image: "../src/assets/imgs/img10.jpg",
+    //image: "../src/assets/imgs/img10.jpg",
+    image: "/p_images/img10.jpg",
     text: "Lorem ipsum id1 dolor sit amet consectetur adipisicing elit. Veniam aut at blanditiis molestiae repellat autem, fuga perferendis ducimus rerum quibusdam id libero alias ipsum, nobis totam obcaecati illum quod laborum ullam sunt? Voluptates ducimus error aspernatur dicta sunt sapiente consectetur voluptatibus excepturi quo repudiandae, soluta, animi ab quis aperiam atque obcaecati numquam incidunt exercitationem nihil odio placeat possimus. Natus hic provident alias rerum atque totam. Aliquid rerum iste fugiat perspiciatis laborum deleniti corporis excepturi at nulla.",
     city: "Pattaya"
 },
@@ -44,7 +45,7 @@ const flats = [
     //image: '@public/p_images/img11.jpg',
     //image: "process.env.PUBLIC_URL +'/p_images/img11.jpg'",
     //image: "import.meta.env.PUBLIC_URL + /p_images/img11.jpg",
-    image: "/p_images/img21.jpg",
+    image: "/p_images/img20.jpg",
     text: "Lorem ipsum id2 dolor sit amet consectetur adipisicing elit. Veniam aut at blanditiis molestiae repellat autem, fuga perferendis ducimus rerum quibusdam id libero alias ipsum, nobis totam obcaecati illum quod laborum ullam sunt? Voluptates ducimus error aspernatur dicta sunt sapiente consectetur voluptatibus excepturi quo repudiandae, soluta, animi ab quis aperiam atque obcaecati numquam incidunt exercitationem nihil odio placeat possimus. Natus hic provident alias rerum atque totam. Aliquid rerum iste fugiat perspiciatis laborum deleniti corporis excepturi at nulla.",
     city: "Pattaya"
 },
@@ -63,7 +64,8 @@ const flats = [
     air_conditioning: false,
     WiFi: false,
     //image: "https://media.istockphoto.com/id/989111136/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4.jpg?s=612x612&w=0&k=20&c=tuit5c6JbvaxDSaebXq8NscFGu9IDSSN3tsULQPQQu4=",
-    image: "../src/assets/imgs/img30.jpg",
+    //image: "../src/assets/imgs/img30.jpg",  
+    image: "/p_images/img30.jpg",
     text: "Lorem ipsum id3 dolor sit amet consectetur adipisicing elit. Veniam aut at blanditiis molestiae repellat autem, fuga perferendis ducimus rerum quibusdam id libero alias ipsum, nobis totam obcaecati illum quod laborum ullam sunt? Voluptates ducimus error aspernatur dicta sunt sapiente consectetur voluptatibus excepturi quo repudiandae, soluta, animi ab quis aperiam atque obcaecati numquam incidunt exercitationem nihil odio placeat possimus. Natus hic provident alias rerum atque totam. Aliquid rerum iste fugiat perspiciatis laborum deleniti corporis excepturi at nulla.",
     city: "Jomtien"
 },
@@ -83,7 +85,8 @@ const flats = [
     air_conditioning: false,
     WiFi: false,
     //image: "https://media.istockphoto.com/id/989111136/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%B2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4.jpg?s=612x612&w=0&k=20&c=tuit5c6JbvaxDSaebXq8NscFGu9IDSSN3tsULQPQQu4=",
-    image: "../src/assets/imgs/img40.jpg",  
+    //image: "../src/assets/imgs/img40.jpg",  
+    image: "/p_images/img40.jpg",
     text: "Lorem ipsum id4 dolor sit amet consectetur adipisicing elit. Veniam aut at blanditiis molestiae repellat autem, fuga perferendis ducimus rerum quibusdam id libero alias ipsum, nobis totam obcaecati illum quod laborum ullam sunt? Voluptates ducimus error aspernatur dicta sunt sapiente consectetur voluptatibus excepturi quo repudiandae, soluta, animi ab quis aperiam atque obcaecati numquam incidunt exercitationem nihil odio placeat possimus. Natus hic provident alias rerum atque totam. Aliquid rerum iste fugiat perspiciatis laborum deleniti corporis excepturi at nulla.",
     city: "Jomtien"
 }
